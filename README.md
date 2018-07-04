@@ -1,18 +1,22 @@
 # yangAjax
 
 ## 如何使用
-1、下载放在一个文件夹里，然后调用
+1、下载放在一个文件夹里，然后调用或使用npm进行下载
+``` bash
+npm install yangajax --save
+
+```
 
 2、在Vue中使用
 
 1）在main.js引入
 ``` bash
 
-var yangAjax = require('./yangAjax');
+var yangAjax = require('yangAjax');
 
 或
 
-import yangAjax from './yangAjax';
+import yangAjax from 'yangAjax';
 
 Vue.prototype.ajax = (config) => {
      yangAjax(config);
@@ -41,11 +45,7 @@ this.ajax({
 1）在main.js引入
 ``` bash
 
-var yangAjax = require('./yangAjax');
-
-或
-
-import {yangAjax} from './yangAjax';
+import {yangAjax} from 'yangAjax';
 
 React.ajax = yangAjax;
 
