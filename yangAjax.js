@@ -4,7 +4,7 @@
  */
 let yangAjax = (config) =>{
     config = config || {};
-    config.type = (config.type || "GET").toUpperCase();
+    config.method = (config.method || "GET").toUpperCase();
     config.dataType = config.dataType || "json";
     config.async = config.async || true;
     config.headers = config.headers || {};
@@ -26,7 +26,7 @@ let yangAjax = (config) =>{
     }
 
 
-    if (config.type === 'POST'){
+    if (config.method === 'POST'){
         xhr.open('POST', config.url, config.async );
 
         if(!isFormData(config.data)){
