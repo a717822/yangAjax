@@ -1,8 +1,9 @@
 # yangAjax
 
 ## 如何使用
+1、下载放在一个文件夹里，然后调用
 
-1、在Vue中使用
+2、在Vue中使用
 
 1）在main.js引入
 ``` bash
@@ -35,7 +36,7 @@ this.ajax({
 });
 ```
 
-2） 在React中使用
+3、 在React中使用
 
 1）在main.js引入
 ``` bash
