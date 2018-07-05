@@ -3,7 +3,7 @@
 ## 如何使用
 1、下载放在一个文件夹里，然后调用或使用npm进行下载
 ``` bash
-npm install yangajax --save
+npm install longajax --save
 
 ```
 
@@ -12,14 +12,14 @@ npm install yangajax --save
 1）在main.js引入
 ``` bash
 
-var yangAjax = require('yangAjax');
+var longajax = require('longajax');
 
 或
 
-import yangAjax from 'yangAjax';
+import longajax from 'longajax';
 
 Vue.prototype.ajax = (config) => {
-     yangAjax(config);
+     longajax(config);
 }
 
 ```
@@ -45,7 +45,7 @@ this.ajax({
 1）在main.js引入
 ``` bash
 
-import {yangAjax} from 'yangAjax';
+import {yangAjax} from 'longajax';
 
 React.ajax = yangAjax;
 
