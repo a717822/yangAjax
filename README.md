@@ -7,6 +7,9 @@ npm install longajax --save
 
 ```
 
+或者下载该文件，引入
+<script src="yangAjax.js"></script>
+
 2、在Vue中使用
 
 1）在main.js引入
